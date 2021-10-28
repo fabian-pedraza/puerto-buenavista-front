@@ -1,0 +1,14 @@
+.box-search {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.input-search {
+    width: 566px;
+    height: 40px;
+    border: 1px solid #E4E7EC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 10px;
+}

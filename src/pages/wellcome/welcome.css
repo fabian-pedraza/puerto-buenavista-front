@@ -1,0 +1,30 @@
+.welcome-content {
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+    gap: 20px;
+    width: 90%;
+    max-width: 341px;
+}
+
+.welcome-content span:nth-child(2n) {
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+
+color: #373F47;
+}
+
+.welcome-content span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #373F47;
+  }
